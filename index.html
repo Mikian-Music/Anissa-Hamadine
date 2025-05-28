@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Anissa Hamadine</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <img src="logo-oiseau.png" alt="Logo oiseau" class="logo" />
+    <h1>Anissa Hamadine</h1>
+    <button id="lang-toggle">🇫🇷 / 🇬🇧</button>
+  </header>
+
+  <main>
+    <section id="accueil">
+      <h2>Bienvenue</h2>
+      <p class="fr">Tu es la meilleure, tu es la plus belle. Tu peux tout réussir. Ne doute jamais de toi.</p>
+      <p class="en">You are the best, you are the most beautiful. You can achieve anything. Never doubt yourself.</p>
+    </section>
+
+    <section id="biographie">
+      <h2>Biographie</h2>
+      <ul>
+        <li>👶 Née le 13 octobre 2023 à 13h10 à Noyal-Pontivy</li>
+        <li>🏡 Vit à Pontivy, France</li>
+        <li>🌍 Origines : 50% marocaine, 47% française, 3% italienne</li>
+        <li>💃 Traits : énergétique, caractérielle, morfale, souriante, danseuse, chanteuse</li>
+        <li>🎵 Sa chanson : APT de Rosé & Bruno Mars</li>
+        <li>🧸 Objet fétiche : poupée Amandine de Kaloo (sa "gaga")</li>
+      </ul>
+    </section>
+
+    <section id="galerie">
+      <h2>Galerie photos</h2>
+      <div class="grid">
+        <img src="mesange-poupee.png" alt="Mésange et poupée Amandine">
+        <img src="https://placehold.co/300x300" alt="placeholder">
+        <img src="https://placehold.co/300x300" alt="placeholder">
+        <img src="https://placehold.co/300x300" alt="placeholder">
+      </div>
+    </section>
+
+    <section id="articles">
+      <h2>Journal d’Anissa</h2>
+      <article>
+        <h3>Quand Anissa a agressé un bébé 😅</h3>
+        <p>C'était un jour à la crèche… disons qu’elle a affirmé son caractère !</p>
+      </article>
+    </section>
+
+    <section id="videos">
+      <h2>Vidéos</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <section id="citations">
+      <h2>Citations</h2>
+      <blockquote>« Tatenin »</blockquote>
+      <blockquote>« L’amour d’une famille est la plus belle des richesses. »</blockquote>
+      <blockquote>« Un bébé remplit un endroit dans ton cœur que tu ne savais pas vide. »</blockquote>
+    </section>
+
+    <section id="contact">
+      <h2>Écrivez un mot à Anissa</h2>
+      <form>
+        <input type="text" placeholder="Votre nom">
+        <input type="email" placeholder="Votre email">
+        <textarea placeholder="Votre message pour Anissa"></textarea>
+        <button type="submit">Envoyer</button>
+      </form>
+    </section>
+
+    <section id="newsletter">
+      <h2>Newsletter</h2>
+      <input type="email" placeholder="Votre adresse email">
+      <button>S'inscrire</button>
+    </section>
+
+    <section id="secret">
+      <h2>🌸 Jardin secret</h2>
+      <p>Entrez le mot de passe pour découvrir l’autre face du site...</p>
+      <input type="password" id="secret-pass" placeholder="Mot de passe">
+      <button onclick="checkSecret()">Entrer</button>
+    </section>
+  </main>
+
+  <audio autoplay loop>
+    <source src="music.mp3" type="audio/mpeg">
+    Votre navigateur ne supporte pas l'audio.
+  </audio>
+
+  <footer>
+    <p>Créé avec amour pour Anissa ❤️</p>
+  </footer>
+</body>
+</html>
