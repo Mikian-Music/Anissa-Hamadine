@@ -1,7 +1,11 @@
 const langToggle = document.getElementById("lang-toggle");
 langToggle.addEventListener("click", () => {
-  document.querySelectorAll(".fr").forEach(el => el.style.display = el.style.display === "none" ? "" : "none");
-  document.querySelectorAll(".en").forEach(el => el.style.display = el.style.display === "none" ? "" : "none");
+  document.querySelectorAll(".fr").forEach(el =>
+    el.style.display = el.style.display === "none" ? "" : "none"
+  );
+  document.querySelectorAll(".en").forEach(el =>
+    el.style.display = el.style.display === "none" ? "" : "none"
+  );
 });
 
 function checkSecret() {
@@ -9,6 +13,6 @@ function checkSecret() {
   if (pass === "licorne") {
     window.location.href = "secret.html";
   } else {
-    alert(" Ton mot de passe est incorrect et remplie de paillette !");
+    alert("Ton mot de passe est incorrect et rempli de paillettes !");
   }
 }
